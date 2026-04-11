@@ -84,12 +84,12 @@ export function getResponse(input: string): string {
       },
     },
     {
-      keywords: ["exam", "final exam", "exam date"],
+      keywords: ["exam", "final exam", "exam date","June exam"],
       respond: () =>
         `📋 **Final Exam** for ${d.code}\n\n📅 Date: **${d.exam.date}**\n📍 Venue: ${d.exam.venue}\n📚 Covers: ${d.exam.chapters.join(", ")}\n\nStart revising early and use past papers for practice!`,
     },
     {
-      keywords: ["chapter", "topic", "what to study", "focus", "syllabus"],
+      keywords: ["chapter", "topic", "what to study", "focus", "syllabus", "scope"],
       respond: () => {
         const list = d.chapters.map((c) => `  ${c.number}. ${c.title}`).join("\n");
         return `📖 **Chapters for ${d.code}**:\n\n${list}\n\nFocus on chapters covered in your next test!`;
