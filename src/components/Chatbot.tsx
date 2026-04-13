@@ -157,7 +157,7 @@ export function Chatbot() {
                 <GraduationCap className="h-8 w-8 text-primary" />
               </div>
               <h2 className="font-[var(--font-display)] text-2xl font-semibold text-foreground">
-                {isAIMode ? "Module guide loaded!" : "Welcome to your Module Assistant"}
+                {isAIMode ? "Module guide loaded!" : "Welcome to your Module chatbot"}
               </h2>
               <p className="mt-2 max-w-md text-sm text-muted-foreground">
                 {isAIMode
