@@ -86,7 +86,7 @@ export function Chatbot() {
       } catch {
         const errMsg: Message = {
           id: crypto.randomUUID(),
-          content: "⚠️ Something went wrong reaching the AI. Please check your API key or try again.",
+          content: "⚠️ Something went wrong reaching the AI.",
           role: "bot",
         };
         setMessages((prev) => [...prev, errMsg]);
