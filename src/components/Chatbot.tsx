@@ -88,7 +88,7 @@ export function Chatbot() {
           </div>
           <div>
             <h1 className="font-[var(--font-display)] text-lg font-semibold text-foreground leading-tight">
-              Module Assistant
+              Module chatbot
             </h1>
             <p className="text-xs text-muted-foreground">{moduleData.code} · {moduleData.name}</p>
           </div>
@@ -109,7 +109,7 @@ export function Chatbot() {
                 <GraduationCap className="h-8 w-8 text-primary" />
               </div>
               <h2 className="font-[var(--font-display)] text-2xl font-semibold text-foreground">
-                Welcome to your Module Assistant
+                Welcome to your Module Guide
               </h2>
               <p className="mt-2 max-w-md text-sm text-muted-foreground">
                 I can help you with tests, assignments, chapters, study tips, and more for <strong>{moduleData.code}</strong>. Pick a topic below or type your question!
