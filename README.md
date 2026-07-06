@@ -40,7 +40,7 @@ The chatbot operates entirely in the browser without requiring a backend server,
 
 ## 🚀 Live Demo
 
-> Add your deployed Netlify URL here.
+
 
 ```text
 https://module-mate.netlify.app
